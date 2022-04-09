@@ -19,3 +19,8 @@
 
 p "Enter a number:"
 
+num = gets.to_i
+
+for i in 1..10
+  puts (i*num).to_s
+end

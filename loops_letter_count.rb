@@ -14,3 +14,9 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+word = gets.chomp
+length = word.length
+for i in 1..length
+  puts i.to_s
+end
+puts word + " is " + length.to_s + " letters long!"
